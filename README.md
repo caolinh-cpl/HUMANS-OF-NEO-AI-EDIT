@@ -2,7 +2,7 @@
 
 Source code for a vertical interview composition built with HyperFrames. This is a video production project, not a separate web application. Python generates the composition HTML and Vietnamese subtitle sidecar; HyperFrames previews, validates, and renders it.
 
-The public repository intentionally excludes interview footage, audio, transcript text, real edit decisions, subtitles, generated HTML, screenshots, and rendered videos. A fresh clone cannot reconstruct the finished interview without the privately retained project data and media.
+The public repository excludes raw interview footage, separate audio, transcript text, real edit decisions, subtitle sidecars, generated HTML, and screenshots. The user-approved finished 720p MP4 is included under `outputs/` for download. A fresh clone cannot reconstruct the finished interview without the privately retained project data and media.
 
 ## Requirements
 
@@ -82,4 +82,12 @@ This inspects the container and streams and decodes the entire file. It checks p
 
 Stage files explicitly. Never force-add ignored files or publish private media/transcripts through releases, Git LFS, or repository history. Environment files, keys, dependency caches, render artifacts, and interview data are ignored.
 
-The finished MP4 and subtitle sidecar are delivered separately through workspace download links. A successful Git push is not proof that either output is downloadable.
+The user has approved publishing the finished 720p MP4 in this public repository. Only that exact MP4 is exempted from the media ignore rules. The subtitle sidecar and original 1080p render remain outside Git.
+
+## Download the finished video
+
+[Download Humans of NEO — 720p MP4](https://github.com/caolinh-cpl/HUMANS-OF-NEO-AI-EDIT/raw/refs/heads/main/outputs/Humans-of-NEO-Dao-Tien-Dung-720p.mp4)
+
+76 seconds; 720 × 1280; 30 fps; H.264 video; AAC audio; burned-in Vietnamese subtitles. File size: 24,208,093 bytes.
+
+SHA-256: `36c90bf76ebab2d530a73da75766beebec3525971fd3881111c8e2c67ce5a548`.

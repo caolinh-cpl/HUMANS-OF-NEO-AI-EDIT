@@ -49,3 +49,6 @@ private/
 .models/
 *.onnx
 *.bin
+
+# Finished 720p video approved by the user for public GitHub delivery.
+!outputs/Humans-of-NEO-Dao-Tien-Dung-720p.mp4
