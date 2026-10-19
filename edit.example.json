@@ -1,0 +1,29 @@
+{
+  "speaker": "Speaker name",
+  "role": "Role",
+  "duration": 76,
+  "clips": [],
+  "captions": [],
+  "chapters": [
+    {
+      "start": 7.5,
+      "end": 14.5,
+      "text": "Marcom · HR · Tech"
+    },
+    {
+      "start": 14.5,
+      "end": 40.44,
+      "text": "HR"
+    },
+    {
+      "start": 40.44,
+      "end": 67.34,
+      "text": "Tech"
+    },
+    {
+      "start": 67.34,
+      "end": 76,
+      "text": "Communication"
+    }
+  ]
+}
