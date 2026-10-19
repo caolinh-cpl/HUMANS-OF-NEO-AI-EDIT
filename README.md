@@ -91,3 +91,15 @@ The user has approved publishing the finished 720p MP4 in this public repository
 76 seconds; 720 × 1280; 30 fps; H.264 video; AAC audio; burned-in Vietnamese subtitles. File size: 24,208,093 bytes.
 
 SHA-256: `36c90bf76ebab2d530a73da75766beebec3525971fd3881111c8e2c67ce5a548`.
+
+## Reuse the saved editing skill
+
+The repository skill is `.agents/skills/humans-of-neo-edit/SKILL.md`; AGENTS.md tells agents working in this checkout to read it for Humans of NEO tasks. Saving this file does not automatically install it in every ChatGPT conversation.
+
+In a future session, select this repository and say:
+
+> Dùng skill humans-of-neo-edit trong repo này. Đây là bản mới; hãy [mô tả thay đổi]. Giữ phong cách Humans of NEO và kiểm tra video cùng link tải trước khi bàn giao.
+
+Attach new footage and, for precise timeline/caption/graphics changes, your private HyperFrames project ZIP. An MP4 alone contains burned-in captions and cannot provide the original editable layers. Do not upload the private project archive or raw footage to this public repository.
+
+The public source and saved skill preserve the workflow; they do not guarantee future access to private files from an earlier workspace.
